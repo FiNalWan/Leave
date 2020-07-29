@@ -1,0 +1,53 @@
+<html>
+<body>
+<title>Sysytem test function</title>
+<h1>กรุณากรอกข้อมูลใบลางาน</h1>
+
+<div>
+<form action ="http://localhost:3000/ok" method="POST">
+<input type="text" placeholder="กรุณากรอก ชื่อ" id="fname" name="firstName" value="" required="true">
+<input type="text" placeholder="กรุณากรอก นาสกุล" id="lname" value="" name="lastName" required="true">
+<br><br><input type="date">
+<input type="date"><br><br>
+<select name="cars" id="cars">
+    <option value="volvo">ลากิจ</option>
+    <option value="saab">ลาป่วย</option>
+    <option value="opel">ลาพักร้อน</option>
+    <option value="audi">ลาคลอด</option>
+    <option value="audi">ลาไปทหาร</option>
+    <option value="audi">ลาบวช</option>
+  </select> <br><br>
+    <input type="text" placeholder="หมายเหตุ">
+<!-- <button onclick="ok()">OK</button> -->
+
+<br><br><input type="submit" value="ตกลง">
+</form>
+</div>
+
+    <script src="Notify.js"></script>
+ 
+
+</body>
+
+<style>
+
+    
+    body{
+        background-color: rgb(255, 255, 255);
+
+    }
+    h1{
+        text-align: center;
+    }
+    div{
+        text-align: center;
+        /* width: 300px;  
+          border: 2px solid rgb(0, 0, 0); 
+          padding: 50px;      
+          margin: 50px;       
+          background-color: rgb(255, 255, 255);  */
+    }
+
+</style>
+
+</html>
