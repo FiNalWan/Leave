@@ -4,55 +4,57 @@
         <title>Add</title>
         <h1>เพิ่มข้อมูลพนักงานใหม่</h1>
 
-        <div class="textbox">
-        <form class="input1" action="/action_page.php">
+        <!-- <div class="textbox"> -->
+        <!-- <form class="input1" action="/action_page.php"> -->
             
-            <input type="text" id="fname" name="fname" placeholder="ชื่อ " required><br><br>
-            
-            <input type="text" id="lname" name="lname" placeholder="นามสกุล" required><br><br>
-          
-            <input type="text" id="fnameEn" name="fnameEn" placeholder="ชื่อภาษาอังกฤษ" ><br><br>
-            
-            <input type="text" id="lnameEn" name="lnameEn" placeholder="นามสกุลภาษาอังกฤษ"><br><br>
-
-            
-            <input type="text" id="id" name="id" placeholder="รหัสพนักงาน"><br><br>
-          
-            <input type="text" id="position" name="position" placeholder="ตำแหน่ง"><br><br>
-           
-            <input type="text" id="department" name="department" placeholder="แผนก"><br><br>
-          
-            <input type="text" id="cotton" name="cotton" placeholder="ฝ่าย"><br><br>
-           
-            <input type="number" id="number" name="number" placeholder="เบอร์โทรศัพท์"><br><br>
-            
+            <input type="text" id="fname" name="fname" placeholder="ชื่อ " required>
+            <input type="text" id="lname" name="lname" placeholder="นามสกุล" required>
+            <input type="text" id="fnameEn" name="fnameEn" placeholder="ชื่อภาษาอังกฤษ" >           
+            <input type="text" id="lnameEn" name="lnameEn" placeholder="นามสกุลภาษาอังกฤษ">       
+            <input type="text" id="id" name="id" placeholder="รหัสพนักงาน" required>
+            <input type="text" id="position" name="position" placeholder="ตำแหน่ง">
+            <input type="text" id="department" name="department" placeholder="แผนก">         
+            <input type="text" id="cotton" name="cotton" placeholder="ฝ่าย">         
+            <input type="number" id="number" name="number" placeholder="เบอร์โทรศัพท์">           
             <input type="text" id="idline" name="idline" placeholder="ไอดีไลน์"><br><br>
+            <input class="ok" type="submit" onclick="click" value="บันทึก">
+          <!-- </form> -->
+        <!-- </div> -->
 
-            <input class="ok" type="submit" value="บันทึก">
-          </form>
-        </div>
+        <script>
 
-        
+        </script>
 
           <style>
 
               body{
                   text-align: center;
-                  background-color: rgb(248, 248, 248);
+                  background-color: rgb(255, 255, 255);
               }
               h1{
                   font-size: 25;
+                  color: #3d3d3dbb;
                        
               }
               input{
-                width: 50%;
+                width: 30%;
                 padding: 10px;
                 border: 1px solid #919191;
                 margin-bottom: 5px;
                 box-sizing:border-box;
                 text-align: center;
               }
-             
+              input.ok{
+                font-size: 20px;
+                width: 25%;
+                padding: 10px;
+                border: 1px solid #919191;
+                margin-bottom: 5px;
+                box-sizing:border-box;
+                text-align: center;
+                background-color: #0099ff;
+                color: #ffffff;
+              }
           </style>
     </body>
 </html>
