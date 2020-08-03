@@ -55,7 +55,7 @@ app.post('/auth', function(request, response) {
 
             }
         )
-        app.get('/', function(request, response) {
+        app.get('/Menu', function(request, response) {
             response.sendFile(path.join(__dirname + '/Menu.html'));
         });
                 console.log("Login by :"+request.session.username)

@@ -2,34 +2,49 @@
 <html>
     <body>
         <title>Add</title>
-        <h1>เพิ่มข้อมูลพนักงานใหม่</h1>
+        <!-- <h1>เพิ่มข้อมูลพนักงานใหม่</h1> -->
 
-        <!-- <div class="textbox"> -->
+        <div class="textbox">
         <!-- <form class="input1" action="/action_page.php"> -->
-            
+            <h1>เพิ่มข้อมูลพนักงานใหม่</h1><br>
             <input type="text" id="fname" name="fname" placeholder="ชื่อ " required>
-            <input type="text" id="lname" name="lname" placeholder="นามสกุล" required>
+            <input type="text" id="lname" name="lname" placeholder="นามสกุล" required><br>
             <input type="text" id="fnameEn" name="fnameEn" placeholder="ชื่อภาษาอังกฤษ" >           
-            <input type="text" id="lnameEn" name="lnameEn" placeholder="นามสกุลภาษาอังกฤษ">       
+            <input type="text" id="lnameEn" name="lnameEn" placeholder="นามสกุลภาษาอังกฤษ"> <br>      
             <input type="text" id="id" name="id" placeholder="รหัสพนักงาน" required>
-            <input type="text" id="position" name="position" placeholder="ตำแหน่ง">
-            <input type="text" id="department" name="department" placeholder="แผนก">         
-            <input type="text" id="cotton" name="cotton" placeholder="ฝ่าย">         
+            <input type="text" id="position" name="position" placeholder="ตำแหน่ง"><br>
+            <input type="text" id="department" name="department" placeholder="แผนก">     
+            <input type="text" id="cotton" name="cotton" placeholder="ฝ่าย"><br>         
             <input type="number" id="number" name="number" placeholder="เบอร์โทรศัพท์">           
             <input type="text" id="idline" name="idline" placeholder="ไอดีไลน์"><br><br>
-            <input class="ok" type="submit" onclick="click" value="บันทึก">
+            <br><input class="ok" type="submit" onclick="click" value="บันทึก">
+            <br><br><br>
           <!-- </form> -->
-        <!-- </div> -->
+        </div>
 
         <script>
 
         </script>
 
           <style>
-
+          
+              div{
+                
+                text-align: center;
+                width: 60%;
+                height: auto;
+                background-color: #ffffff;
+                border: 1px solid #919191;
+                margin: auto;
+              }
               body{
-                  text-align: center;
-                  background-color: rgb(255, 255, 255);
+                  
+                  /* background-color: rgb(164, 248, 244); */
+                  background: -webkit-gradient(linear, left bottom, right top, from(#08aeea), to(#b721ff));
+                  background: -webkit-linear-gradient(bottom left, #08aeea 0%, #b721ff 100%);
+                  background: -moz-linear-gradient(bottom left, #08aeea 0%, #b721ff 100%);
+                  background: -o-linear-gradient(bottom left, #08aeea 0%, #b721ff 100%);
+                  background: linear-gradient(to top right, #08aeea 0%, #b721ff 100%);
               }
               h1{
                   font-size: 25;
@@ -37,7 +52,7 @@
                        
               }
               input{
-                width: 30%;
+                width: 25%;
                 padding: 10px;
                 border: 1px solid #919191;
                 margin-bottom: 5px;
